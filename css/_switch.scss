@@ -1,0 +1,15 @@
+.dark-theme .toggler::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: var(--text-color);
+  content: "\f185";
+  transition: 1s ease-in-out rotate(45deg);
+}
+
+.toggler::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: var(--text-color);
+  content: "\f186";
+  transition: 1s ease-in-out;
+}

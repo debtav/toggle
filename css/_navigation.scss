@@ -1,0 +1,74 @@
+nav {
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  button {
+    background: none;
+    border: 0;
+    outline: none;
+    .fa-bars {
+      color: var(--primary-color);
+      font-size: 1.3em;
+    }
+  }
+  ul {
+    width: 100%;
+    height: 85%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.8em;
+    line-height: 3.5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a {
+      text-decoration: none;
+      color: var(--primary-color);
+      &:hover {
+        color: var(--text-color);
+      }
+    }
+    .active {
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      text-decoration-color: var(--primary-color);
+      &:hover {
+        text-decoration-color: var(--text-color);
+      }
+    }
+  }
+}
+.offcanvas-end {
+  min-width: 100vw;
+  background-color: var(--background-color);
+}
+.btn-close {
+  box-sizing: content-box;
+  padding: 0.25em 0.25em;
+  color: var(--text-color);
+  background: none;
+  border: 0;
+  border-radius: 0.25rem;
+  opacity: 1;
+  font-size: 1.3em;
+  &:focus {
+    box-shadow: none;
+    opacity: 0.5;
+  }
+}
+
+.navigation-large ul {
+  width: 100%;
+  flex-direction: row;
+  line-height: 1;
+  font-size: 1.1em;
+  li {
+    padding: 0 4em;
+  }
+}

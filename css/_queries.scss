@@ -1,0 +1,59 @@
+// STARTING DEVICE: 320X568px (iphone 5/se)
+
+@media screen and (min-width: 650px) {
+    #home img {
+      left: 15%;
+    }
+  }
+  
+  @media screen and (min-width: 412px) {
+    .home-content {
+      margin-top: 3rem;
+      h1 {
+        font-size: 3em;
+      }
+    }
+
+  }
+  @media screen and (min-width: 920px) {
+    #home img {
+      left: 15%;
+    }
+    .home-content {
+      padding-right: 6em;
+      margin-top: 27%;
+      h1 {
+        font-size: 3.5em;
+      }
+    }
+    #home main {
+      align-items: flex-end;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    #home img {
+      left: 17%;
+    }
+    .home-content {
+      padding-right: 10em;
+    }
+    footer .social {
+      font-size: 2em;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    .home-content {
+      margin-top: 17%;
+      padding-right: 20em;
+      p {
+        font-size: 1.8em;
+      }
+      h1 {
+        font-size: 5em;
+      }
+    }
+  }
+  
+  

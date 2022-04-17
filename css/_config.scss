@@ -1,0 +1,42 @@
+$font-stack: "Segoe UI", "Frutiger", "Frutiger Linotype", "Dejavu Sans",
+  "Helvetica", "Arial", "sans-serif";
+
+// THEME SETTINGS
+
+.light-theme {
+  --primary-color: #1f33e7;
+  --background-color: #dcdcdc;
+  --text-color: #0e0d0d;
+  --gradient: 180deg, rgba(31, 51, 231, 0.2) 25%, rgba(198, 236, 72, 0.3) 95%;
+}
+
+.dark-theme {
+  --primary-color: #c5ec48;
+  --background-color: #0e0d0d;
+  --text-color: #dcdcdc;
+  --gradient: 180deg, rgba(197, 236, 72, 0.02) 35%, rgba(31, 51, 231, 0.3) 100%;
+  img {
+    filter: opacity(50%);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .dark-theme {
+    --primary-color: #c5ec48;
+    --background-color: #0e0d0d;
+    --text-color: #dcdcdc;
+    --gradient: 180deg, rgba(197, 236, 72, 0.02) 35%,
+      rgba(31, 51, 231, 0.3) 100%;
+    img {
+      filter: opacity(50%);
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .light-theme {
+    --primary-color: #1f33e7;
+    --background-color: #dcdcdc;
+    --text-color: #0e0d0d;
+    --gradient: 180deg, rgba(31, 51, 231, 0.2) 25%, rgba(198, 236, 72, 0.3) 95%;
+  }
+}
